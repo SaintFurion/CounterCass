@@ -9,30 +9,63 @@
 #header {
     font-size: 16px;
     line-height: 25px;
-    color: blue;
+    color: black;
     font-family: 'Glyphicons';
     padding-bottom: 30px;
     padding-top: 15px;
 }
 
 .information{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .name span{
+    font-size: 35px;
+    color: blue;
     position: relative;
-    padding-left: 20px;
     font-weight: bold;
 }
 .map span{
     position: relative;
-    padding-left: 24px;
+    padding-left: 20px; 
+    font-weight: bold;
 }
 .map span::before{
     content: "";
     background: url(../img/map.png);
     position: absolute;
-    width: 24px;
-    height: 17px;
+    width: 22px;
+    height: 25px;
     left: -12px;
-    top: 0;
+    top: 0px;
+}
+.number span{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+}
+.name2 span{
+    color: black;
+    position: relative;
+}
+.email span{
+    position: relative;
+    padding-left: 20px; 
+    font-weight: bold;
+}
+.email span::before{
+    content: "";
+    background: url(../img/email.PNG);
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    left: -12px;
+    top: 0px;
+}
+.callrevers span{
+    position: relative;
+    font-weight: bold;  
+}
+.outline {
+ border: 2px solid blue;
+ padding: 5px 5px;
 }
