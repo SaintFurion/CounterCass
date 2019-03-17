@@ -7,11 +7,32 @@
   }
 
 #header {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 16px;
+    line-height: 25px;
     color: blue;
     font-family: 'Glyphicons';
-    font-weight: 3000;
     padding-bottom: 30px;
     padding-top: 15px;
+}
+
+.information{
+    margin-bottom: 30px;
+}
+.name span{
+    position: relative;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.map span{
+    position: relative;
+    padding-left: 24px;
+}
+.map span::before{
+    content: "";
+    background: url(../img/map.png);
+    position: absolute;
+    width: 24px;
+    height: 17px;
+    left: -12px;
+    top: 0;
 }
