@@ -164,4 +164,278 @@ A:hover{
     position: relative;
 }
 
+#flesh{
+    position: relative;
+}
 
+.sidebar{
+    margin-bottom: 30px;
+    margin-top: 30px; 
+}
+
+.catalog{
+    font-size: 22px;
+    font-family: "Geometria-Bold";
+    color: white;
+    text-align: center;
+    padding: 31px 0px;
+    background: #04569f;
+    margin-right: 80px;
+}
+
+#sidebar-menu{
+    margin-right: 80px;
+}
+
+#sidebar-menu ul{
+    padding-left: 0px;
+    position: relative;
+    margin: 0px;
+    background: #f4f4f4;
+    padding: 38px 0;
+    top:0px;
+}
+
+#sidebar-menu ul li{
+    list-style-type: none;
+    width: 100%
+}
+
+.logo1 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo1 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo1 ul li a::before{
+    content: "";
+    background: url(../img/logo1.png);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: 0px;
+}
+.logo2 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+.logo2 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo2 ul li a::before{
+    content: "";
+    background: url(../img/logo2.PNG);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: -8px;
+}
+
+.logo3 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo3 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo3 ul li a::before{
+    content: "";
+    background: url(../img/logo3.png);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: 0px;
+}
+.logo4 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo4 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo4 ul li a::before{
+    content: "";
+    background: url(../img/logo4.png);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: -8px;
+}
+.logo5 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo5 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo5 ul li a::before{
+    content: "";
+    background: url(../img/logo5.png);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: -14px;
+}
+
+.logo6 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+.logo6 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo6 ul li a::before{
+    content: "";
+    background: url(../img/logo6.png);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: -15px;
+}
+
+.logo7 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo7 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo7 ul li a::before{
+    content: "";
+    background: url(../img/logo7.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: -14px;
+}
+
+.logo8 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo8 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo8 ul li a::before{
+    content: "";
+    background: url(../img/logo8.png);
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 40px;
+    top: 0px;
+}
+
+.logo9 ul li a{
+    padding-left: 85px;
+    display: block;
+    color: #303030;
+    position:relative;
+    font-family: "Geometria-Bold";
+    font-size: 13px;
+}
+
+
+.logo9 ul li a:hover{
+    text-decoration: underline;
+    color: #3887cf;
+  }
+
+.logo9 ul li a::before{
+    content: "";
+    background: url(../img/logo9.png);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    top: -14px;
+}
+#content{
+    min-height: 500px;
+    padding-top: 10px;
+}
+.content_inner{
+    margin-bottom: 50px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    color: #363636;
+    font-family: 'Times New Roman';
+}
+
+.li{
+    color: #04569f;
+}
+.li span{
+    color: #303030;
+}
