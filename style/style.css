@@ -32,8 +32,10 @@
 }
 
 .information{
-    padding-top: 56px;
+    padding-top: 48px;
 }
+
+
 
 .name span{
     font-family: 'Geometria-Heavy';
@@ -59,10 +61,12 @@
 }
 .number span{
     font-family: 'Geometria-ExtraBold';
-    position: absolute;
+    position: relative;
     color: #012646;
     font-size: 20px;
-    text-align:right;
+    width: 225px;
+    padding-left:10px;
+    margin-left: 70px;
 }
 .name2 span{
     font-family: 'Geometria';
@@ -99,7 +103,10 @@
     display: flex;
     justify-content: left;
     align-items: left;
-    top: 10px;
+    top: 3px;
+    width: 225px;
+    padding-left:10px;
+    margin-left: 70px;
 }
 
 .outline {
@@ -136,12 +143,12 @@ A:hover{
 .selections{
     margin-top:68px;
     margin-left: 15px;
-    margin-right: 90px;
+    margin-right: 15px;
 }
 
 .menu{
     text-align: center;
-    background: #007bff;
+    background: #04569f;
 }
 
 .selections-table{
@@ -154,7 +161,6 @@ A:hover{
 
 #banner{
     text-align: center;
-    width: 100;
     position: relative;
 }
 
