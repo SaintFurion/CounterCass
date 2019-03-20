@@ -26,10 +26,9 @@
 #header{
     font-size: 16px;
     line-height: 17px;
-    color: black;
+    color: white;
     font-family: 'Geometria';
     padding-bottom: 30px;
-    padding-top: 15px;
 }
 
 .information{
@@ -60,9 +59,10 @@
 }
 .number span{
     font-family: 'Geometria-ExtraBold';
-    position: relative;
+    position: absolute;
     color: #012646;
     font-size: 20px;
+    text-align:right;
 }
 .name2 span{
     font-family: 'Geometria';
@@ -91,7 +91,7 @@
     left: -16px;
     top: 0px;
 }
-.callrevers span{
+.callback span{
     font-family: 'Geometria-Medium';
     font-size: 13px;
     color: #012646;
@@ -106,3 +106,56 @@
     border: 1px solid blue;
     padding: 6px 2px;
 }
+
+.outline:hover{
+    border: 1px solid #3887cf;
+}
+
+A{
+    text-decoration: none;
+}
+
+A:hover{
+    text-decoration: none;
+    color: #012646;
+}
+
+.link{
+    font-family: 'Geometria-Bold';
+    font-size:16px; 
+    color:white; 
+    font-weight:bold
+}
+
+.link:hover{
+    font-size:16px; 
+    color:white; 
+    font-weight:bold
+}
+
+.selections{
+    margin-top:68px;
+    margin-left: 15px;
+    margin-right: 90px;
+}
+
+.menu{
+    text-align: center;
+    background: #007bff;
+}
+
+.selections-table{
+    padding: 18px 18px 18px 18px;
+}
+
+.selections-table:hover{
+    background: #3887cf;
+}
+
+#banner{
+    text-align: center;
+    width: 100;
+    position: relative;
+}
+
+
