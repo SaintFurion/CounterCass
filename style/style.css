@@ -134,29 +134,31 @@ A:hover{
     font-weight:bold
 }
 
-.link:hover{
-    font-size:16px; 
-    color:white; 
-    font-weight:bold
-}
-
-.selections{
-    margin-top:68px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.menu{
+.nav-menu {
+    margin: 70px 15px 0px 15px;
     text-align: center;
-    background: #04569f;
+    background-color: #04569f;
+    position: relative; 
+    display: table;
+    width: 1140px; 
+    height: 50px;
+}
+.nav-menu li {
+   display: table-cell; 
+   position: relative;
+}
+.nav-menu li a {
+   display: block; 
+   position: relative;
+   width: 100%; 
+   height: 100%;
+   text-align:center;
+   color:white;
+   line-height: 50px;
 }
 
-.selections-table{
-    padding: 18px 18px 18px 18px;
-}
-
-.selections-table:hover{
-    background: #3887cf;
+.nav-menu li a:hover{
+    background-color: #3887cf;
 }
 
 #banner{
@@ -256,14 +258,23 @@ A:hover{
     font-family: "Geometria-Bold";
     color: white;
     text-align: left;
-    padding-left:50px;
+    padding-left:80px;
     padding-top: 20px;
     padding-bottom:20px;
     background: #04569f;
     margin-bottom: 60px;
+    width:332px;
 }
+
+#brand{
+    padding-left: 100px;
+}
+
 .inform{
     padding-left:15px;
+}
+
+.navbar-nav{
     margin-bottom:170px;
 }
 
