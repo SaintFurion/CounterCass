@@ -49,22 +49,31 @@
         top: 15px;
         } 
 
-        @media (max-width: 992px) {
-          .owl-buttons{
-            position: relative;
-            background-size: 30px;
-            
-            }
+        @media (min-width: 0px) and (max-width: 750px) {
             .owl-prev {
             position: absolute;
             left: -10px;
-            top: 50px;
+            top: 35px;
             
             }
             
             .owl-next {
             position: absolute;
             right: 0px;
-            top: 50px;
+            top: 35px;
+            } 
+        }
+        @media (min-width: 751px) and (max-width: 970px){
+          .owl-prev {
+            position: absolute;
+            left: -10px;
+            top: 25px;
+            
+            }
+            
+            .owl-next {
+            position: absolute;
+            right: 0px;
+            top: 25px;
             } 
         }
