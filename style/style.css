@@ -188,7 +188,7 @@ A:hover{
 }
 
 .navbar.navbar-default{
-    background-color:white;
+    background-color:none;
     border: none;
 
 }
@@ -220,7 +220,6 @@ A:hover{
     padding: 30px 0px;
     background: #04569f;
 }
-
 
 #sidebar-menu ul{
     position: relative;
@@ -364,7 +363,7 @@ h2{
     color: #3887cf;
   }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
     #header
     {
         text-align: center;
@@ -389,22 +388,19 @@ h2{
         margin-bottom: 10px;
     }
 
-    .name2 span{
+    .name2{
         padding-left: 0px; 
         margin-bottom: 10px;
     }
 
-    .email{
-        margin-left: 0px;
-        padding-left: 0px; 
+    .email span{ 
+        margin-top: 10px;
+        position: relative;
+        top: 100%;
     }
 
     .callback{
         display:none;
-    }
-
-    #sidebar-menu img{
-        display: none;
     }
 
     #sidebar-menu a{
@@ -415,10 +411,22 @@ h2{
         margin-right: 30px;
     }
 
+    #bs-example-navbar-collapse-2{
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color:none;
+        border: none;
+
+    }
+
     .navbar.navbar-default{
         background-color: #04569f;
     }
     
+    .navbar-default{
+        background-color:#f4f4f4;
+    }
+
     .navbar ul{
         padding-left: 0px;
     }
@@ -451,6 +459,10 @@ h2{
         margin-right: 0px;
     }
 
+    #sidebar-menu img{
+        display: none;
+    }
+
     .brands{
         text-align: center;
         padding-top: 30px;
@@ -463,20 +475,69 @@ h2{
         margin-left: 0px;
     }
 
-    .topnav{
-        display:none;
+    .topnav ul{
+        padding-left: 0px;
+        margin-bottom: 60px;
     }
+    
+    .topnav ul li a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
 
-@media (min-width: 751px) and (max-width: 990px) {
-    #header
-    {
-        padding-top: 0px;
-        text-align:center;
+@media (min-width: 770px) and (max-width: 990px) {
+    #header{
+        padding-left:15px;
+        padding-right:15px; 
+        text-align: left;
     }
 
-    .name2 span{
-        display:none;
+    #banner img{
+        width: 720px;
+    }
+
+    .map{
+        margin-left: 20px;
+        padding-left:0px;
+    }
+
+    .map span{
+        padding-left:0px;
+    }
+
+    .map span::before{
+        left: -40px;
+    }
+    .number span{
+        font-family: 'Geometria-ExtraBold';
+        position: relative;
+        color: #012646;
+        font-size: 20px;
+        padding-left:10px;
+        margin-left: 20px;
+    }
+ 
+    .email span::before{
+        content: "";
+        background: url(../img/email.PNG);
+        position: absolute;
+        width: 25px;
+        height: 20px;
+        left: -22px;
+        top: 0px;
+    }
+    .callback{
+        font-family: 'Geometria-Medium';
+        font-size: 13px;
+        color: #012646;
+        position: relative;
+        display: flex;
+        justify-content: left;
+        top: 3px;
+        padding-left:10px;
+        margin-left: 20px;
     }
 
     .navbar.navbar-default{
@@ -517,19 +578,6 @@ h2{
         color:white;
     }
 
-    #banner img{
-        padding-left:15px;
-        padding-right:15px;
-    }
-
-    .number span{
-        display:none;
-    }
-
-    .callback{
-        display:none;
-    }
-
     #content{
         padding-left: 15px;
     }
@@ -549,8 +597,83 @@ h2{
         margin-left: 0px;
     }
 
-    .topnav{
-        display:none;
+    .topnav ul{
+        padding-left: 10px;
+        margin-bottom: 60px;
+    }
+    
+    .topnav ul li a{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
+}
+
+@media (min-width: 990px) and (max-width: 1197px){
+
+    #header{
+        padding-left:15px;
+        padding-right:15px; 
+    }
+
+    #banner img{
+        width: 940px;
+    }
+
+    .map span::before{
+        left: -22px;
+    }
+    .number span{
+        font-family: 'Geometria-ExtraBold';
+        position: relative;
+        color: #012646;
+        font-size: 20px;
+        padding-left:10px;
+        margin-left: 20px;
+    }
+ 
+    .email span::before{
+        content: "";
+        background: url(../img/email.PNG);
+        position: absolute;
+        width: 25px;
+        height: 20px;
+        left: -22px;
+        top: 0px;
+    }
+    .callback{
+        font-family: 'Geometria-Medium';
+        font-size: 13px;
+        color: #012646;
+        position: relative;
+        display: flex;
+        justify-content: left;
+        top: 3px;
+        padding-left:10px;
+        margin-left: 20px;
+    }
+
+    .brands{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        width: 107%;
+        background: #04569f;
+    }
+
+
+    .brand{
+        margin-left: -2%;
+    }
+
+    .topnav ul{
+        padding-left: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .topnav ul li a{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
