@@ -319,6 +319,13 @@ h2{
     font-family: 'Geometria';
 }
 
+.cont{
+    display: inline;
+    color: #474747;
+    font-family: "ProximaNova-Regular";
+    padding-left: 20px;
+    padding-right: 20px; }
+
 .brands{
     font-size: 14px;
     font-family: "Geometria-Bold";
