@@ -370,6 +370,7 @@ h2{
     }
 
     .name{
+        margin-top: 30px;
         margin-bottom: 30px;
     }
 
@@ -399,8 +400,21 @@ h2{
         top: 100%;
     }
 
-    .callback{
-        display:none;
+    .callback a{
+        font-size: 18px;
+        justify-content: center;
+        color: white;
+       }
+
+    .outline{
+        padding-top: 15px;
+        z-index: 2;
+        width: 94%;
+        height: 50px;
+        position: fixed;
+        left: 15px;
+        top: 0%;
+        background: #04569f; 
     }
 
     #sidebar-menu a{
@@ -480,6 +494,7 @@ h2{
     }
     
 }
+
 
 @media (min-width: 770px) and (max-width: 990px) {
     #header{
@@ -614,8 +629,17 @@ h2{
         width: 940px;
     }
 
+    .map{
+        margin-left: 20px;
+        padding-left:0px;
+    }
+
+    .map span{
+        padding-left:0px;
+    }
+
     .map span::before{
-        left: -22px;
+        left: -40px;
     }
     .number span{
         font-family: 'Geometria-ExtraBold';
