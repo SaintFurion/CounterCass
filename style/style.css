@@ -476,13 +476,7 @@ h2{
     }
 
     .topnav ul{
-        padding-left: 0px;
-        margin-bottom: 60px;
-    }
-    
-    .topnav ul li a{
-        padding-left: 10px;
-        padding-right: 10px;
+        display: none;
     }
     
 }
