@@ -24,13 +24,18 @@
 }
 
 @font-face{
-    font-family: 'Myriad-Pro';
-    src: url('../fonts/Myriad-Pro.ttf');
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.ttf');
 }
 
 @font-face{
     font-family: 'ProximaNova-Bold';
     src: url('../fonts/ProximaNova-Bold.otf');
+}
+
+@font-face{
+    font-family: 'ProximaNova-Regular';
+    src: url('../fonts/ProximaNova-Regular.ttf');
 }
 
 #header{
@@ -48,10 +53,12 @@
 
 
 .name span{
+    display: block;
     font-family: 'Geometria-Heavy';
     font-size: 32px;
     color: #04569f;
     position: relative;
+    margin-bottom: 14px;
 }
 .map span{
     font-family: 'Geometria-Bold';
@@ -119,7 +126,7 @@
 }
 
 .outline {
-    border: 1px solid blue;
+    border: 1px solid #012646;
     padding: 6px 2px;
 }
 
@@ -127,9 +134,13 @@
     border: 1px solid #3887cf;
 }
 
+A{
+    color: #012646;  
+}
+
 A:hover{
     text-decoration: none;
-    color: #012646;
+    color: #3887cf;
 }
 
 .selections{
@@ -165,6 +176,7 @@ A:hover{
 .navbar li a{
     display: block; 
     position: relative;
+    font-size: 16px;
     text-align:center;
     color:white;
     line-height: 60px;
@@ -205,7 +217,7 @@ A:hover{
     font-family: "Geometria-Bold";
     color: white;
     text-align: center;
-    padding: 35px 0px;
+    padding: 30px 0px;
     background: #04569f;
 }
 
@@ -237,44 +249,73 @@ A:hover{
     color: #3887cf;
   }
 
+#content A span{
+    color: #787878;
+    font-family: "Geometria";
+    font-size: 15px;
+}
+
+#content A span:hover{
+    color: #04569f;  
+}
+
 #content{
     min-height: 500px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-left: 40px;
 }
 .content_inner{
     margin-bottom: 50px;
     width: 100%;
     font-size: 14px;
-    line-height: 25px;
-    color: #444444;
-    font-family: 'Myriad-Pro';
+    line-height: 20px;
+    color: #242f38;
+    font-family: 'Geometria';
 }
 
-.content_inner li{
+.content_inner ul.list{
+    padding-left: 0px;
     color: #04569f;
-    font-size: 20px;
 }
-.content_inner li span{
-    color: #444444;
+
+.list li::before {
+    content: "\2022";
+    color: #04569f;
+    font-weight: bold;
+    display: inline-block;
+    width: 19px;
+    font-size: 25px;
+    margin-left: 22px;
+    float: left; }
+
+.content_inner ul li span{
+    color: #242f38;
     font-size: 14px;
+}
+
+p{
+    margin-bottom: 20px; 
 }
 
 h1{
     font-family:"Geometria-Bold";
     color: #04569f;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 
 h2{
+    font-size: 25px;
     font-family:"ProximaNova-Bold";
     color: #04569f;
+    margin-bottom: 30px;
 }
 
 .content_inner2{
-    margin-bottom: 50px;
-    width: 100%;
+    margin-bottom: 100px;
     font-size: 14px;
-    line-height: 25px;
+    line-height: 20px;
     color: #444444;
     font-family: 'Geometria';
 }
@@ -300,7 +341,7 @@ h2{
 }
 
 .topnav ul{
-    padding-left: 250px;
+    padding-left: 50px;
 }
 
 .topnav ul li{
@@ -333,16 +374,41 @@ h2{
         margin-bottom: 30px;
     }
 
+    .map{
+        margin-bottom: 10px;
+    }
+
     .number span{
-        display:none;
+        padding-left:0px;
+        margin-left: 0px;
+    }
+
+    .number{
+        padding-left:0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
     }
 
     .name2 span{
-        display:none;
+        padding-left: 0px; 
+        margin-bottom: 10px;
+    }
+
+    .email{
+        margin-left: 0px;
+        padding-left: 0px; 
     }
 
     .callback{
         display:none;
+    }
+
+    #sidebar-menu img{
+        display: none;
+    }
+
+    #sidebar-menu a{
+        text-align: center;
     }
 
     #bs-example-navbar-collapse-1{
@@ -415,6 +481,14 @@ h2{
 
     .navbar.navbar-default{
         background-color:#04569f;
+    }
+
+    #sidebar-menu img{
+        display: none;
+    }
+
+    #sidebar-menu a{
+        text-align: center;
     }
 
     #bs-example-navbar-collapse-1{

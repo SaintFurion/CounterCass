@@ -49,18 +49,17 @@
         top: 15px;
         } 
 
-        @media (min-width: 0px) and (max-width: 750px) {
+        @media (max-width: 750px) {
             .owl-prev {
-            position: absolute;
             left: -10px;
-            top: 35px;
-            
+            height		: 100px;
+	          line-height	: 100px;
             }
             
             .owl-next {
-            position: absolute;
             right: 0px;
-            top: 35px;
+            height		: 100px;
+	          line-height	: 100px;
             } 
         }
         @media (min-width: 751px) and (max-width: 970px){
